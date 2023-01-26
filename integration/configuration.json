@@ -1,0 +1,17 @@
+{
+  "secrets": [    {
+        "name": "TOKEN",
+        "label": "Token",
+        "description": "Token used to authenticate to Pangea API"
+      }
+      ],
+  "configuration": [    {
+        "name": "CONFIGID",
+        "label": "ConfigId",
+        "description": "ConfigId for the Pangea Secure Audit Log API"
+      }],
+  "dependencies": [{
+        "name": "node-pangea",
+        "version": "latest" 
+      }]
+}
