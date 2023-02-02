@@ -1,0 +1,1 @@
+integration/installation_guide.md
