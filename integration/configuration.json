@@ -6,12 +6,17 @@
       }
       ],
   "configuration": [    {
-        "name": "CONFIGID",
-        "label": "ConfigId",
-        "description": "ConfigId for the Pangea Secure Audit Log API"
+        "name": "DOMAIN",
+        "label": "Domain",
+        "description": "Pangea Organization Domain"
+      },
+  {
+        "name": "PROVIDER",
+        "label": "Provider",
+        "description": "Selected provider for IP Intel (e.g. crowdstrike)"
       }],
   "dependencies": [{
-        "name": "node-pangea",
+        "name": "pangea-node-sdk",
         "version": "latest" 
       }]
 }

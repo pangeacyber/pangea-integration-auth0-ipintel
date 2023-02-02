@@ -1,11 +1,7 @@
 {
-  "name": "action-integration-test",
+  "name": "action-post-login-integration-test",
   "runtime": "node16",
   "supported_triggers": [
-    {
-      "id": "pre-user-registration",
-      "version": "v2"
-    },
     {
       "id": "post-login",
       "version": "v2"

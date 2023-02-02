@@ -1,7 +1,7 @@
-const { makeEventMock } = require("../__mocks__/event-pre-user-registration");
-const { apiMock } = require("../__mocks__/api-pre-user-registration");
+const { makeEventMock } = require("../__mocks__/event-post-login");
+const { apiMock } = require("../__mocks__/api-post-login");
 
-const { onExecutePreUserRegistration } = require("./integration.action");
+const { onExecutePostLogin } = require("./integration.action");
 
 describe("Action integration", () => {
   let consoleLogMock;
@@ -17,10 +17,10 @@ describe("Action integration", () => {
     jest.clearAllMocks();
   });
 
-  describe("onExecutePreUserRegistration", () => {
+  describe("onExecutePostLogin", () => {
     it("executes", async () => {
       expect(async () => {
-        await onExecutePreUserRegistration(eventMock, apiMock);
+        await onExecutePostLogin(eventMock, apiMock);
       }).not.toThrow();
     });
   });
