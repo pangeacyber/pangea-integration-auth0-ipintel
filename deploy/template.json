@@ -1,6 +1,6 @@
 {
   "name": "action-post-login-integration-test",
-  "runtime": "node16",
+  "runtime": "node22",
   "supported_triggers": [
     {
       "id": "post-login",
